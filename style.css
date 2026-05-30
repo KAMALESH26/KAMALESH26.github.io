@@ -88,6 +88,21 @@ section {
     border-radius: 20px;
 }
 
+.btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #38bdf8;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background: #0ea5e9;
+}
+
 h3 {
     margin-top: 20px;
 }
