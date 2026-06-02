@@ -1,140 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kamalesh | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-    <!-- Navbar -->
-    <nav>
-        <h2>KAMALESH R</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="background-glow"></div>
 
-    <!-- Hero Section -->
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            Kamalesh
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+
     <section class="hero">
-        <h1>Hi, I'm <span>Kamalesh</span></h1>
-        <p>Building AI projects & solving real-world problems</p>
-        
-        <a href="#projects" class="btn">View My Work</a>
-        <a href="./KAMALESH_Resume.pdf" download class="btn">Download Resume</a>
+
+        <div class="hero-content reveal">
+
+            <span class="hero-label">
+                MACHINE LEARNING • AUTOMATION • CLOUD
+            </span>
+
+            <h1>
+                Exploring Machine Learning,
+                Automation, and Cloud Technologies
+                through practical projects.
+            </h1>
+
+            <p>
+                BSc Information Technology graduate (2026) focused on building
+                intelligent systems, scalable applications, and automation solutions.
+                Currently developing PANDA, an Intelligent Automation Framework.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn-primary">
+                    View Projects
+                </a>
+
+                <a href="KAMALESH_Resume.pdf" download class="btn-secondary">
+                    Download Resume
+                </a>
+
+            </div>
+
+        </div>
+
     </section>
 
-    <!-- About -->
-    <section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a passionate developer focused on building real-world solutions using 
-        Machine Learning, Cloud Computing, and Data Handling. I have hands-on experience 
-        through projects like PANDA AI Assistant, where I work on automation, system design, 
-        and intelligent features.
-    </p>
+    <!-- ABOUT -->
 
-    <p>
-        I enjoy solving practical problems and continuously improving my skills in 
-        Python, backend development, and scalable system design. I am currently 
-        exploring ways to integrate AI into everyday applications.
-    </p>
-</section>
+    <section id="about" class="section reveal">
 
-    <!-- Projects -->
-    <section id="projects">
+        <h2>About</h2>
+
+        <p>
+            I am a BSc Information Technology student graduating in 2026 with a strong interest
+            in Machine Learning, Automation, Cloud Computing, and software development.
+        </p>
+
+        <p>
+            I enjoy learning through hands-on projects and exploring how intelligent systems
+            can solve real-world problems.
+        </p>
+
+        <p>
+            Currently, I am developing PANDA, an Intelligent Automation Framework designed
+            to combine AI capabilities, automation workflows, and future IoT integration.
+        </p>
+
+    </section>
+
+    <!-- PROJECTS -->
+
+    <section id="projects" class="section reveal">
+
         <h2>Projects</h2>
 
         <div class="project-card">
-            <h3>PANDA AI Assistant</h3>
-            <p>AI assistant with automation, voice interaction, and smart features.</p>
-        </div>
 
-        <div class="project-card">
-            <h3>More Coming...</h3>
-            <p>Currently building new ML-based applications.</p>
+            <div class="project-header">
+
+                <div>
+                    <h3>PANDA</h3>
+                    <span>Intelligent Automation Framework</span>
+                </div>
+
+            </div>
+
+            <p>
+                PANDA is an ongoing project focused on creating an intelligent automation
+                platform capable of combining AI-driven interactions, automation workflows,
+                and future IoT connectivity.
+            </p>
+
+            <div class="project-tags">
+
+                <span>Python</span>
+                <span>Automation</span>
+                <span>AI Integration</span>
+                <span>Client-Server Architecture</span>
+                <span>Future IoT Expansion</span>
+
+            </div>
+
+            <a href="https://github.com/KAMALESH26"
+                target="_blank"
+                class="project-link">
+
+                View on GitHub →
+
+            </a>
+
         </div>
 
     </section>
 
-    <!-- Skills -->
-    <section id="skills">
-    <h2>Skills</h2>
+    <!-- SKILLS -->
 
-    <div class="skills">
-        <span>Python</span>
-        <span>JavaScript</span>
-        <span>SQL</span>
-    </div>
+    <section id="skills" class="section reveal">
 
-    <h3>Core Concepts</h3>
-    <div class="skills">
-        <span>Machine Learning</span>
-        <span>DBMS</span>
-        <span>Data Analysis</span>
-    </div>
+        <h2>Skills</h2>
 
-    <h3>Tools & Technologies</h3>
-    <div class="skills">
-        <span>GitHub</span>
-        <span>Power BI</span>
-        <span>Cloud Computing</span>
-    </div>
+        <div class="skills-grid">
 
-</section>
+            <div class="skill-card">
+                <h3>Programming</h3>
 
-<section id="education">
-    <h2>Education</h2>
-    <div class="project-card">
-        <h3>Bachelor's Degree</h3>
-        <p>Sri Ramakrishna College of Arts & Science</p>
-        <p>Computer Science / Related Field</p>
-    </div>
-</section>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>
+                </div>
+            </div>
 
-<section id="certifications">
-    <h2>Certifications</h2>
-    <div class="project-card">
-        <ul>
-            <li>Cloud Computing</li>
-            <li>Machine Learning</li>
-            <li>Power BI</li>
-        </ul>
-    </div>
-</section>
+            <div class="skill-card">
+                <h3>AI & Data</h3>
 
-<section id="focus">
-    <h2>Currently Working On</h2>
-    <div class="project-card">
-        <p>Developing PANDA AI Assistant with future IoT integration and intelligent automation capabilities.</p>
-    </div>
-</section>
+                <div class="skill-tags">
+                    <span>Machine Learning</span>
+                    <span>Data Analysis</span>
+                    <span>Power BI</span>
+                </div>
+            </div>
 
+            <div class="skill-card">
+                <h3>Systems & Tools</h3>
 
-    
-    <!-- Contact -->
-   <section id="contact">
-    <h2>Contact</h2>
+                <div class="skill-tags">
+                    <span>Cloud Computing</span>
+                    <span>DBMS</span>
+                    <span>Git</span>
+                    <span>GitHub</span>
+                    <span>Linux</span>
+                </div>
+            </div>
 
-    <p>Email: kamaleshanu26@gmail.com</p>
-    <p>GitHub: https://github.com/KAMALESH26</p>
-    <p>LinkedIn: https://linkedin.com/in/yourprofile</p>
+        </div>
 
-</section>
+    </section>
 
-<section id="goal">
-    <h2>My Goal</h2>
-    <p>
-        My goal is to build impactful technology that solves real-world problems. 
-        I am particularly interested in AI-driven systems and scalable applications. 
-        I aim to work in environments where I can learn, contribute, and build 
-        meaningful solutions.
-    </p>
-</section>
+    <!-- EDUCATION -->
+
+    <section id="education" class="section reveal">
+
+        <h2>Education</h2>
+
+        <div class="education-card">
+
+            <h3>BSc Information Technology</h3>
+
+            <p>Sri Ramakrishna College of Arts & Science</p>
+
+            <p>Graduation Year: 2026</p>
+
+        </div>
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="section reveal">
+
+        <h2>Contact</h2>
+
+        <div class="contact-card">
+
+            <a href="mailto:YOUR_EMAIL@gmail.com">
+                YOUR_EMAIL@gmail.com
+            </a>
+
+            <a href="https://github.com/KAMALESH26" target="_blank">
+                github.com/KAMALESH26
+            </a>
+
+            <a href="https://linkedin.com/in/kamaleshramalingam"
+                target="_blank">
+
+                linkedin.com/in/kamaleshramalingam
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <footer>
+        © 2026 Kamalesh
+    </footer>
+
+    <script>
+
+        const observer = new IntersectionObserver((entries) => {
+
+            entries.forEach(entry => {
+
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                }
+
+            });
+
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll(".reveal").forEach((el) => {
+            observer.observe(el);
+        });
+
+    </script>
 
 </body>
+
 </html>
