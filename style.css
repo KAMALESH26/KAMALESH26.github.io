@@ -6,6 +6,18 @@
     --accent:#38BDF8;
 }
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+}
+
 .hero{
     min-height:100vh;
 
