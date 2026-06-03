@@ -1,3 +1,7 @@
+body{
+    background:red !important;
+}
+
 :root{
     --bg:#081120;
     --card:#111827;
